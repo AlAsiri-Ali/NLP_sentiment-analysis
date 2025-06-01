@@ -1,0 +1,50 @@
+# ============================================================================
+# Production-ready NLP pipeline for sentiment classification
+# Compatible with Python 3.10+
+# Last updated: May 30, 2025
+# ============================================================================
+
+# Core Data Science Libraries
+# ----------------------------------------------------------------------------
+pandas>=1.5.3                    # Data manipulation and analysis
+numpy>=1.23.5,<2.0               # Numerical computing (compatible with TensorFlow)
+scipy>=1.11.4                    # Scientific computing (compatible with gensim)
+
+# Machine Learning & NLP
+# ----------------------------------------------------------------------------
+scikit-learn>=1.3.2              # Traditional ML algorithms
+nltk>=3.8.1                      # Natural language processing toolkit
+gensim>=4.3.2                    # Word2Vec and topic modeling
+imbalanced-learn>=0.11.0         # SMOTE for handling class imbalance
+
+# Deep Learning
+# ----------------------------------------------------------------------------
+tensorflow>=2.15.0               # Deep learning framework for LSTM
+keras>=2.15.0                    # High-level neural networks API
+
+# Visualization & Reporting
+# ----------------------------------------------------------------------------
+matplotlib>=3.6.2                # Plotting and visualization
+seaborn>=0.12.2                  # Statistical data visualization
+wordcloud>=1.9.2                 # Word cloud generation
+
+# Text Processing & Utilities
+# ----------------------------------------------------------------------------
+beautifulsoup4>=4.12.0           # HTML parsing and cleaning
+regex>=2023.8.8                  # Advanced regular expressions
+tqdm>=4.65.0                     # Progress bars for long operations
+
+# Development & Testing (Optional)
+# ----------------------------------------------------------------------------
+# pytest>=7.4.0                  # Testing framework
+# black>=23.7.0                  # Code formatting
+# flake8>=6.0.0                  # Code linting
+# jupyter>=1.0.0                 # Jupyter notebook support
+
+# ============================================================================
+# Installation Instructions:
+# pip install -r requirements.txt
+# 
+# For development:
+# pip install -r requirements.txt -r requirements-dev.txt
+# ============================================================================
